@@ -10,6 +10,12 @@
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 
+## Running
+First start the backend then start frontend
+```
+pnpm start
+```
+
 
 ## Start the server by running
 ```

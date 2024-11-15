@@ -10,7 +10,8 @@ app.get('/', (req, res) => {
 
 // New route for books
 app.get('/books', (req, res) => {
-  res.send('List of books');
+  const books = ['Book 1', 'Book 2', 'Book 3'];
+  res.json(books);
 });
 
 app.listen(PORT, () => {
