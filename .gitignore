@@ -1,5 +1,5 @@
 # Node Modules, install with: pnpm install necessary modules
-node_modules/
+*/node_modules/
 
 # TypeScript compiled JS files
 dist/
