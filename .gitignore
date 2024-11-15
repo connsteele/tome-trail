@@ -1,0 +1,24 @@
+# Node Modules, install with: pnpm install necessary modules
+node_modules/
+
+# TypeScript compiled JS files
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
